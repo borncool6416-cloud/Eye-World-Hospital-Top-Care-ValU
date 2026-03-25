@@ -1,8 +1,358 @@
-<h2>Designer</h2>
-<h3>Campaign B (ValU Partnership)</h3>
-<img src="https://res.cloudinary.com/dekqbfbws/image/upload/v1774417139/0efea2100159065.5f031e3e8c32c_ljvbyo.jpg" alt="ValU Logo" />
-<ul>
-    <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416775/Screenshot_2026-03-25_032329_bqmsoo.png">ValU Asset 1</a></li>
-    <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416748/Screenshot_2026-03-25_032141_zptqxw.png">ValU Asset 2</a></li>
-    <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416744/Screenshot_2026-03-25_032223_jrywut.png">ValU Asset 3</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Execution Guide | Eye World x ValU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
+            background-color: #f8fafc;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .active-tab {
+            border-bottom: 4px solid #0A9488;
+            color: #0A9488;
+            font-weight: 700;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .brand-pill {
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .bg-eyeworld { background-color: #0A9488; color: white; }
+        .bg-topcare { background-color: #1565C0; color: white; }
+        .bg-valu { background-color: #00A19A; color: white; }
+        .bg-valu-orange { background-color: #E94E1B; color: white; }
+        
+        /* Arabic Support */
+        [lang="ar"] { font-family: 'Noto Sans Arabic', sans-serif; direction: rtl; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div>
+                    <h1 class="text-2xl font-bold text-slate-900">Full Exposure Execution Guide</h1>
+                    <p class="text-slate-500 text-sm">Eye World Hospital × Top Care × ValU</p>
+                </div>
+                <div class="flex gap-2">
+                    <span class="brand-pill bg-eyeworld">Eye World</span>
+                    <span class="brand-pill bg-topcare">Top Care</span>
+                    <span class="brand-pill bg-valu">ValU Partnership</span>
+                </div>
+            </div>
+            
+            <!-- Navigation Tabs -->
+            <nav class="flex mt-8 border-b overflow-x-auto no-scrollbar">
+                <button onclick="openTab(event, 'strategy')" class="tab-link px-6 py-3 text-sm whitespace-nowrap active-tab">Campaign Strategy</button>
+                <button onclick="openTab(event, 'designer')" class="tab-link px-6 py-3 text-sm whitespace-nowrap">Designer Task</button>
+                <button onclick="openTab(event, 'mediabuyer')" class="tab-link px-6 py-3 text-sm whitespace-nowrap">Media Buyer Task</button>
+                <button onclick="openTab(event, 'content')" class="tab-link px-6 py-3 text-sm whitespace-nowrap">Content Creator Task</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-10">
+
+        <!-- TAB: STRATEGY (Overview for Everyone) -->
+        <div id="strategy" class="tab-content active">
+            <section class="card">
+                <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+                    <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-sm">01</span>
+                    The Campaign Architecture
+                </h2>
+                <p class="mb-6 text-slate-600">Team, we are running two parallel engines. It’s critical you understand how they feed into each other.</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="border-l-4 border-[#0A9488] pl-4">
+                        <h3 class="font-bold text-lg mb-2">Campaign A: The Entry Point</h3>
+                        <p class="text-sm text-slate-600 mb-4"><strong>Free Cross-Specialty Consultation:</strong> This is our volume driver. We prove our convenience by offering a free consult in a different specialty than the one the patient came for.</p>
+                        <div class="bg-slate-50 p-3 rounded text-sm italic">
+                            "One visit. More than one solution." <br>
+                            <span class="font-bold">زيارة واحدة… أكتر من حل</span>
+                        </div>
+                    </div>
+                    <div class="border-l-4 border-[#E94E1B] pl-4">
+                        <h3 class="font-bold text-lg mb-2">Campaign B: The Accelerator</h3>
+                        <p class="text-sm text-slate-600 mb-4"><strong>Triple Zero with ValU:</strong> This removes price hesitation for elective procedures (LASIK, Derma, Dental packages).</p>
+                        <div class="bg-slate-50 p-3 rounded text-sm italic">
+                            "Triple Zero. Smart decision." <br>
+                            <span class="font-bold">احسبها بذكاء</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card p-6 border-t-4 border-[#0A9488]">
+                    <h4 class="font-bold mb-2">Eye World Visuals</h4>
+                    <p class="text-xs text-slate-500">Clinical, bold, data-backed. Use Deep Teal & Night Black. Dark backgrounds are okay.</p>
+                </div>
+                <div class="card p-6 border-t-4 border-[#B8965A]">
+                    <h4 class="font-bold mb-2">Top Care Visuals</h4>
+                    <p class="text-xs text-slate-500">Premium, luxury, aspirational. Cream, Gold, and Charcoal. "10 Min Max Wait" promise.</p>
+                </div>
+                <div class="card p-6 border-t-4 border-[#00A19A]">
+                    <h4 class="font-bold mb-2">ValU Co-Branding</h4>
+                    <p class="text-xs text-slate-500">White/Clean backgrounds ONLY. ValU Teal & Orange. Bright and cheerful.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: DESIGNER -->
+        <div id="designer" class="tab-content">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Designer Mission</h2>
+                <span class="brand-pill bg-slate-200 text-slate-700">10-Day Sprint</span>
+            </div>
+            
+            <p class="mb-8 text-lg">Your mission is to build two visually distinct systems. I don't want the user to be confused about whether they are seeing a medical offer or a financial solution.</p>
+
+            <div class="space-y-8">
+                <!-- Deliverables -->
+                <section class="card">
+                    <h3 class="font-bold text-lg mb-4 text-[#0A9488]">Deliverables: Campaign A (Medical)</h3>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-700">
+                        <li>3 Static Key Visuals (Eye→Dental, Dental→Derma, Derma→Eye)</li>
+                        <li>2 Carousel posts showing the "One Visit" journey</li>
+                        <li>2 Short Reel covers</li>
+                        <li>6 Story frames + 1 WhatsApp Status pack</li>
+                        <li>Reception Desk poster for the branch</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3 class="font-bold text-lg mb-4 text-[#E94E1B]">Deliverables: Campaign B (ValU Partnership)</h3>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-700">
+                        <li>1 Partnership reveal static (Clean & Professional)</li>
+                        <li>1 Triple Zero explainer carousel (0% Interest, 0% Down, 0% Admin)</li>
+                        <li>1 Calculator Story sequence</li>
+                        <li>Service-specific versions (LASIK, Dental, Skin)</li>
+                    </ul>
+                    <div class="mt-4 p-4 bg-teal-50 rounded-lg border border-teal-100">
+                        <p class="text-sm font-semibold mb-2">Asset Links:</p>
+                        <a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774417139/0efea2100159065.5f031e3e8c32c_ljvbyo.jpg" target="_blank" class="text-blue-600 text-xs block hover:underline">Download ValU Logo</a>
+                    </div>
+                </section>
+
+                <!-- Do's and Don'ts -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-green-50 p-6 rounded-xl border border-green-200">
+                        <h4 class="text-green-800 font-bold mb-3">DO</h4>
+                        <ul class="text-sm space-y-2 text-green-700">
+                            <li>✓ Use real patient expressions and clinic spaces.</li>
+                            <li>✓ Keep ValU assets on WHITE backgrounds.</li>
+                            <li>✓ Add subtitles to all motion assets.</li>
+                            <li>✓ Ensure logos have proper breathing room.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-red-50 p-6 rounded-xl border border-red-200">
+                        <h4 class="text-red-800 font-bold mb-3">DON'T</h4>
+                        <ul class="text-sm space-y-2 text-red-700">
+                            <li>✗ Do not recolor any brand logos.</li>
+                            <li>✗ Do not use dark styling for ValU ads.</li>
+                            <li>✗ Do not use busy or cluttered backgrounds.</li>
+                            <li>✗ Do not make Top Care look like a discount brand.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Hosted links block added at the bottom of Designer Task tab -->
+                <section class="card">
+                    <h4 class="font-bold mb-2">Hosted ValU Assets</h4>
+                    <p class="text-sm text-slate-600 mb-2">Designer hosted assets (logo + assists). Click to download/open:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-700 text-sm">
+                        <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774417139/0efea2100159065.5f031e3e8c32c_ljvbyo.jpg" target="_blank" class="text-blue-600 hover:underline">ValU hosted logo</a></li>
+                        <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416775/Screenshot_2026-03-25_032329_bqmsoo.png" target="_blank" class="text-blue-600 hover:underline">ValU asset: Screenshot_2026-03-25_032329</a></li>
+                        <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416748/Screenshot_2026-03-25_032141_zptqxw.png" target="_blank" class="text-blue-600 hover:underline">ValU asset: Screenshot_2026-03-25_032141</a></li>
+                        <li><a href="https://res.cloudinary.com/dekqbfbws/image/upload/v1774416744/Screenshot_2026-03-25_032223_jrywut.png" target="_blank" class="text-blue-600 hover:underline">ValU asset: Screenshot_2026-03-25_032223</a></li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- TAB: MEDIA BUYER -->
+        <div id="mediabuyer" class="tab-content">
+            <h2 class="text-2xl font-bold mb-2">Media Buyer Mission</h2>
+            <p class="mb-8">This is a dual-funnel strategy. Funnel 1 creates the entry; Funnel 2 closes the sale.</p>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="card border-t-4 border-[#0A9488]">
+                    <h3 class="font-bold mb-4">Campaign A: Consultation Leads</h3>
+                    <p class="text-sm mb-4 font-semibold">Objective: Messages / Leads</p>
+                    <div class="space-y-3 text-sm">
+                        <p><strong>Ad Sets:</strong> Pair-based (Eye-Dental, Dental-Derma, etc.)</p>
+                        <p><strong>Audience:</strong> Cairo + Giza, 22-45 (Women-focused for Beauty, Mixed for Eyes)</p>
+                        <p><strong>Primary:</strong> Instagram Reels first, then TikTok.</p>
+                    </div>
+                </div>
+                <div class="card border-t-4 border-[#E94E1B]">
+                    <h3 class="font-bold mb-4">Campaign B: ValU Conversion</h3>
+                    <p class="text-sm mb-4 font-semibold">Objective: Traffic / Conversion</p>
+                    <div class="space-y-3 text-sm">
+                        <p><strong>Target:</strong> Installment-sensitive users, premium healthcare interest.</p>
+                        <p><strong>Strategy:</strong> Retarget anyone who engaged with Campaign A but didn't book.</p>
+                        <p><strong>Primary:</strong> Meta-led with heavy TikTok support.</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="card bg-amber-50 border border-amber-200">
+                <h3 class="font-bold text-amber-800 mb-4">Pre-Launch Checklist (Critical Gaps)</h3>
+                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <div class="flex items-center gap-2">
+                        <input type="checkbox" class="h-4 w-4">
+                        <span>Pixel and CAPI verification</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-red-600 font-bold">
+                        <input type="checkbox" class="h-4 w-4">
+                        <span>Landing Page Confirmation (Audit found gaps)</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="checkbox" class="h-4 w-4">
+                        <span>UTM links for every ad set</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <input type="checkbox" class="h-4 w-4">
+                        <span>WhatsApp Routing check</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="card">
+                <h3 class="font-bold mb-4">Benchmarks for Success</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left">
+                        <thead class="bg-slate-50 text-slate-500 uppercase text-xs">
+                            <tr>
+                                <th class="px-4 py-2">Metric</th>
+                                <th class="px-4 py-2">Target</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y">
+                            <tr><td class="px-4 py-3">CTR</td><td class="px-4 py-3">2.5%+ for ValU ads</td></tr>
+                            <tr><td class="px-4 py-3">Response Time</td><td class="px-4 py-3">Under 15 mins (Max 2 hours)</td></tr>
+                            <tr><td class="px-4 py-3">Primary KPI</td><td class="px-4 py-3 font-bold text-green-700">Booked Consultations</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: CONTENT CREATOR -->
+        <div id="content" class="tab-content">
+            <h2 class="text-2xl font-bold mb-6">Content Creator Mission</h2>
+            
+            <div class="grid md:grid-cols-4 gap-4 mb-10">
+                <div class="p-4 bg-white rounded-lg shadow-sm border text-center">
+                    <div class="font-bold text-xl text-[#0A9488]">Trust</div>
+                    <p class="text-xs text-slate-500">Medical Authority</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm border text-center">
+                    <div class="font-bold text-xl text-[#0A9488]">Ease</div>
+                    <p class="text-xs text-slate-500">Cross-specialty</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm border text-center">
+                    <div class="font-bold text-xl text-[#0A9488]">Affordability</div>
+                    <p class="text-xs text-slate-500">Financial Smartness</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm border text-center">
+                    <div class="font-bold text-xl text-[#0A9488]">Change</div>
+                    <p class="text-xs text-slate-500">Life Transformation</p>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Reels & Formats -->
+                <div class="card">
+                    <h3 class="font-bold text-lg mb-4">Shoot List for Production Day</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <ul class="list-disc ml-5 text-sm space-y-2">
+                            <li><strong>Authority:</strong> Professor-led clips, real equipment in action.</li>
+                            <li><strong>Facility:</strong> 5th Floor Top Care luxury cues (Coffee, VIP lounges).</li>
+                            <li><strong>Interaction:</strong> Receptionist explaining the free cross-specialty offer.</li>
+                        </ul>
+                        <ul class="list-disc ml-5 text-sm space-y-2">
+                            <li><strong>Finance:</strong> "How to apply for ValU" screen recording/demo.</li>
+                            <li><strong>Social Proof:</strong> Patient testimonial corners (Confidence-focused).</li>
+                            <li><strong>B-Roll:</strong> Clean medical lighting, nurse-patient smiles.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Hooks -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="card">
+                        <h4 class="font-bold mb-4 text-[#0A9488]">Free Consultation Hooks</h4>
+                        <div class="space-y-4">
+                            <div class="p-3 bg-slate-50 rounded">
+                                <p class="text-xs text-slate-500 mb-1">English</p>
+                                <p class="text-sm italic">"Coming for dental? Ask about your complimentary skin consultation."</p>
+                            </div>
+                            <div class="p-3 bg-slate-50 rounded" dir="rtl">
+                                <p class="text-xs text-slate-500 mb-1" dir="ltr">Arabic</p>
+                                <p class="text-sm font-bold">"لو جاي تخصص... اسأل عن الاستشارة المجانية للتخصص التاني"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4 class="font-bold mb-4 text-[#E94E1B]">ValU Hooks</h4>
+                        <div class="space-y-4">
+                            <div class="p-3 bg-slate-50 rounded">
+                                <p class="text-xs text-slate-500 mb-1">English</p>
+                                <p class="text-sm italic">"0% interest. 0% down payment. 0% admin fees."</p>
+                            </div>
+                            <div class="p-3 bg-slate-50 rounded" dir="rtl">
+                                <p class="text-xs text-slate-500 mb-1" dir="ltr">Arabic</p>
+                                <p class="text-sm font-bold">"اعمل اللي محتاجه دلوقتي… وادفع براحتك"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <p class="text-sm mb-2">Social Media Execution Guide &copy; 2024</p>
+            <p class="text-xs">Confidential Strategy Document for Eye World Hospital Team</p>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabContent, tabLinks;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].classList.remove("active");
+            }
+            tabLinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active-tab");
+            }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active-tab");
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
